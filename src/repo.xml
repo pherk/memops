@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <author>Peter Herkenrath</author>
+    <website>https://github.com/pherk/xqtime</website>
+    <license>Apache License, Version 2.0</license>
+    <copyright>true</copyright>
+    <description>xquery modules for handling memory operations</description>
+    <type>library</type>
+    <status>unstable</status>
+    <changelog>
+        <change version="0.1.0">
+            <ul xmlns="http://www.w3.org/1999/xhtml">
+                <li>Initial version</li>
+            </ul>
+        </change>
+    </changelog>
+</meta>
