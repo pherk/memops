@@ -1,4 +1,4 @@
-xquery version "3.0";
+xquery version "3.1";
 
 (:~
 Copyright (c) 2016 Ryan Dew
@@ -149,7 +149,7 @@ as map(*)?
 {
   let $function-key as xs:string := mem:function-key($transform-function)
   return 
-    map:new((
+    map:merge((
       mem:queue(
         $transaction-map,
         $nodes-to-change,
@@ -206,7 +206,7 @@ as map(*)
     return
     (
     mem:all-nodes-from-same-doc($nodes-to-modify,map:get($transaction-map,"copy")),
-    map:new((
+    map:merge((
       $transaction-map,
       map:entry(
         "operation",
