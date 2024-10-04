@@ -1,4 +1,4 @@
-xquery version "1.0-ml";
+xquery version "3.1";
 (:~
 Copyright (c) 2013 Ryan Dew
 
@@ -19,8 +19,10 @@ limitations under the License.
 @description This is a module with function changing XML in memory by creating subtrees using the ancestor, preceding-sibling, and following-sibling axes
 				and intersect/except expressions. Requires MarkLogic 6+.
 ~:)
-module namespace memops="http://enahar.org/lib/memops";
-import module namespace nodeops="http://enahar.org/lib/nodeops";
+module namespace memops="http://eNahar.org/ns/lib/memops";
+
+import module namespace nodeops="http://eNahar.org/ns/lib/nodeops";
+
 declare default function namespace "http://www.w3.org/2005/xpath-functions";
 declare namespace xdmp="http://marklogic.com/xdmp";
 declare namespace map="http://marklogic.com/xdmp/map";

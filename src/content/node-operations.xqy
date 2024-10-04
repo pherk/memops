@@ -1,4 +1,4 @@
-xquery version "3.0";
+xquery version "3.1";
 (:~
 Copyright (c) 2013 Ryan Dew
 
@@ -20,7 +20,8 @@ limitations under the License.
 				and intersect/except expressions. Requires MarkLogic 6+.
 :)
 
-module namespace nodeops = "http://enahar.org/lib/nodeops";
+module namespace nodeops = "http://eNahar.org/ns/lib/nodeops";
+
 declare default function namespace "http://www.w3.org/2005/xpath-functions";
 
 

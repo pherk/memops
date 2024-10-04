@@ -20,6 +20,7 @@ limitations under the License.
 				and intersect/except expressions. Requires MarkLogic 7+.
 ~:)
 module namespace mem-op-fun="http://maxdewpoint.blogspot.com/memory-operations/functional";
+
 import module namespace mem-op="http://maxdewpoint.blogspot.com/memory-operations" at "memory-operations.xqy";
 import module namespace node-op="http://maxdewpoint.blogspot.com/node-operations" at "node-operations.xqy";
 declare default function namespace "http://www.w3.org/2005/xpath-functions";

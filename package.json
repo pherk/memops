@@ -1,7 +1,7 @@
 {
-  "name": "iCal",
+  "name": "Memops",
   "version": "1.0.0",
-  "description": "iCal eXist-db",
+  "description": "MemOps eXist-db",
   "scripts": {
     "test": "gulp install:all && mocha --exit",
     "test:watch": "mocha --watch",

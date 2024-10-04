@@ -20,8 +20,10 @@ limitations under the License.
 @description This is a module with function changing XML in memory by creating subtrees using the ancestor, preceding-sibling, and following-sibling axes
         and intersect/except expressions. This version works with eXistDB and BaseX
 ~:)
-module namespace mem="http://enahar.org/lib/mem";
-import module namespace nodeops="http://enahar.org/lib/nodeops";
+module namespace mem="http://eNahar.org/ns/lib/mem";
+
+import module namespace nodeops="http://eNahar.org/ns/lib/nodeops";
+
 declare default function namespace "http://www.w3.org/2005/xpath-functions";
 
 (: Queue insert a child into the node :)
