@@ -84,7 +84,7 @@ function watchEs () {
 }
 exports["watch:es"] = watchEs
 
-const static = 'src/**/*.{xml,html,xq,xquery,xql,xqm,xsl,xconf,json,svg,js,map,png,ico,ttf,txt,gif}'
+const static = 'src/**/*.{xml,html,xq,xquery,xql,xqm,xqy,xsl,xconf,json,svg,js,map,png,ico,ttf,txt,gif}'
 // const static = 'src/**/*.*'
 
 /**
