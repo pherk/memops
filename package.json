@@ -9,8 +9,7 @@
     "build": "gulp build",
     "build:all": "gulp build && gulp test:build",
     "deploy": "gulp install",
-    "copy": "gulp copyStatic",
-    "postinstall": "cp node_modules/@jinntec/fore/dist/* src/resources/script/"
+    "copy": "gulp copyStatic"
   },
   "repository": {
     "type": "git",
