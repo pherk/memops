@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta xmlns="http://exist-db.org/xquery/repo">
+    <repo>/db/system/repo</repo>
     <author>Peter Herkenrath</author>
     <website>https://github.com/pherk/memops</website>
     <license>Apache License, Version 2.0</license>
